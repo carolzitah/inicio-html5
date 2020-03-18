@@ -1,0 +1,14 @@
+
+    body { text-align: center; font-family: 'Frankclin Gothic Medium'; background: #ffffff; font-size: large;}
+    p { color: rgb(255, 255, 255)}
+    h1 { color: rgb(255, 255, 255)d65; font-weight: bold;}
+    a { color: rgb(255, 255, 255)0; }
+    ul{ font-family: 'Frankclin Gothic Medium'; color:#fff; list-style-position: inside;}
+    li{ text-align: center}
+    ol{ font-family: 'Frankclin Gothic Medium'; color:#fff; list-style-position: inside;}
+    li{ text-align: center}
+    blockquote {background-color: rgb(255, 255, 255);}
+    .carulina {
+      color: purple;
+
+    }

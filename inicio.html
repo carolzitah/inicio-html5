@@ -44,7 +44,8 @@
                }
 
                li { 
-                    text-align: center
+                    text-align: center;
+                    
                }
 
                blockquote {
@@ -91,21 +92,57 @@
                     border-radius: 100%; 
                     padding: 10px; 
                     cursor: pointer;
-               
                }
-               
+
+               #menu {
+                    list-style-type: none;
+                    margin: auto;
+                    padding: 0;
+                    overflow: hidden;
+                    background-color: rgb(54, 1, 41);
+                    margin-left: 340px;
+                    margin-right: 340px;
+                    background-size: 100% 100%;
+                    text-align: center;
+                    width: 49%;
+               }
+               li a {
+                    display: block;
+                    color: white;
+                    text-align: center;
+                    padding: 16px;
+                    text-decoration: none;
+                    float: left;
+                    
+                    
+               }
+
+               li a:hover {
+                    background-color: #ff94c2;
+               }
+
+
         
           </style>
 
      </head>
      <body>
-          <h1 style="border:2px solid Tomato; margin-left: 300px; margin-right: 300px"><strong>Bem Vindo ao meu site - Estou aprendendo HTML</strong></h1>
+          
+
+          <h1 id="home" style="border:2px solid Tomato; margin-left: 300px; margin-right: 300px"><strong>Bem Vindo ao meu site - Estou aprendendo HTML</strong></h1>
+          <p><ul id="menu">
+               <li><a href="#home"><< Menu >></a></li>
+               <li><a href="#home">Home</a></li>
+               <li><a href="#características">Características</a></li>
+               <li><a href="#citação">Citação favorita</a></li>
+               <li><a href="#vidaacademica">Vida Acadêmica</a></li>
+             </ul></p>
           <p>Hoje 09/03/2020 <mark>iniciei</mark> os estudos e espero evoluir <em>gradativamente.</em></p>
           <p>Fui <strong>incentivada</strong> pelo meu <a href="https://www.linkedin.com/in/jorge-pezzuol/" target="_blank"> amorzinho</a> a <del>iniciar</del> nessa <sub>área</sub>.</p>
           <p title="CarolzitaH">Essa sou eu: <br> <a href="https://www.facebook.com/carolina.ocinschi" target="_blank"><img src="https://scontent.flis8-1.fna.fbcdn.net/v/t1.0-9/87182348_2740737412674348_9080188878156988416_o.jpg?_nc_cat=103&_nc_sid=09cbfe&_nc_oc=AQmPzFqSBXj9vaefj5yQfCQMjRXZd9y9dR9g2u7mhnkGPeFMU852AX2IR0BePnqAiGKtocxcXwKsR-xk9bVo2W9P&_nc_ht=scontent.flis8-1.fna&oh=2910e642f35efbcfd10a18539f5ca67c&oe=5E96596E" alt="Foto da carolzitah" width="400" height="400"/></a><a href="https://www.facebook.com/carolina.ocinschi" target="_blank" title="CarolzitaH"><img src="https://scontent.flis8-1.fna.fbcdn.net/v/t1.0-9/67405769_2336159249798835_7454439092562952192_o.jpg?_nc_cat=109&_nc_sid=174925&_nc_oc=AQn9CAaFxiPT0Sw9i2ZmWLe3ZcXpSpxFF9-JVVdIHjpgwjhCcFd-pcrKgjiqNC0q5FiAYMZRTdG6pS_FXTmyxc3f&_nc_ht=scontent.flis8-1.fna&oh=0034e64b6160e181c14445d4873c10ff&oe=5E965561" alt="Foto da carolzitah" width="400" height="400" style="margin-left: 20px"/></a>   
           <p><a href="https://www.linkedin.com/in/carolina-ocinschi-joaquim/" target="_blank"><button>Meu LinkedIn</button></p></a>
           <p><a href="https://drive.google.com/u/0/uc?id=1zCj6Q1OKCbkqUQnH3Pvovfmt-KAZyB2H&export=download" target="_blank"><button>Meu Curriculo</button></p></a>
-          <h2 style="color:#ff94c2">Minhas Características:</h2>
+          <h2 id="características" style="color:#ff94c2">Minhas Características:</h2>
           <ul>
                <abbr title="Carolina Ocinschi Joaquim">COJ</abbr>
               <li>Altura: 1,69m</li>
@@ -114,7 +151,7 @@
               <li>Cor dos cabelos: Pretos</li>
           </ul>
 
-          <h2 style="color:#ff94c2">Minha Citação favorita:</h2>
+          <h2 id="citação" style="color:#ff94c2">Minha Citação favorita:</h2>
           <blockquote cite ="https://www.pensador.com/frase/MjU0Mzc/" style="color:#ffffff">
           <br><q>A vida é uma peça de teatro que não permite ensaios.<br>
           Por isso, cante, chore, dance, ria e viva intensamente,<br>
@@ -125,7 +162,7 @@
            ou simplesmente para tirar algo do site, mas sem tirar do código-->
           <p><bdo dir="rtl">O espelho do Desejo!</bdo>
           
-          <h2 style="color:#ff94c2">Minha vida Acadêmica:</h2>
+          <h2 id="vidaacademica" style="color:#ff94c2">Minha vida Acadêmica:</h2>
           <table>
                <tr>
                     <th>Curso</th>
@@ -153,7 +190,8 @@
                     <td>2008</td>
                </tr>
           </table>
-          
+
+         
 
 
      </body>

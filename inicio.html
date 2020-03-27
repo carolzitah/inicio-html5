@@ -45,6 +45,7 @@
 
                li { 
                     text-align: center;
+                    display: inline-block;
                     
                }
 
@@ -95,30 +96,62 @@
                }
 
                #menu {
+                    
                     list-style-type: none;
                     margin: auto;
                     padding: 0;
                     overflow: hidden;
                     background-color: rgb(54, 1, 41);
-                    margin-left: 340px;
-                    margin-right: 340px;
+                    margin-left: 10%;
+                    margin-right: 10%;
                     background-size: 100% 100%;
                     text-align: center;
-                    width: 100;
+                    width: 80%;
                }
+
                li a {
                     display: block;
                     color: white;
                     text-align: center;
                     padding: 16px;
                     text-decoration: none;
-                    float: left;
-                    
+                    float: left;  
                     
                }
 
                li a:hover {
                     background-color: #ff94c2;
+               }
+
+               #formulario {
+                    border: 2px solid rgb(54, 1, 41);
+                    margin-left: 500px;
+                    margin-right: 500px;
+                    text-align: left;
+                    padding: 20px;
+                    background-color:#ba2d65;
+                    text-align: left;
+                    border-radius: 5%;
+          
+               }
+               .formulario {
+                    color: rgb(54, 1, 41);
+                    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                    font-weight:900;
+                    text-align: right;   
+               }
+               #enviar {
+                    background-color: rgb(54, 1, 41);
+                    color:#ff94c2;
+                    border: 1px solid #ff94c2;
+                    padding: 10px;
+                    font-family: cursive;
+                    font-weight: bold;
+                    font-size: x-large;
+                    text-align: center;
+                    border-radius: 12%;
+
+                    
                }
 
 
@@ -127,8 +160,8 @@
 
      </head>
      <body>
+          <!-- MENU-->
           
-
           <h1 id="home" style="border:2px solid Tomato; margin-left: 300px; margin-right: 300px"><strong>Bem Vindo ao meu site - Estou aprendendo HTML</strong></h1>
           <p><ul id="menu">
                <li><a href="#home"><< Menu >></a></li>
@@ -136,12 +169,19 @@
                <li><a href="#características">Características</a></li>
                <li><a href="#citação">Citação favorita</a></li>
                <li><a href="#vidaacademica">Vida Acadêmica</a></li>
+               <li><a href="#resumo">Sobre Mim</a></li>
              </ul></p>
+
+          <!-- INÍCIO-->
+
           <p>Hoje 09/03/2020 <mark>iniciei</mark> os estudos e espero evoluir <em>gradativamente.</em></p>
           <p>Fui <strong>incentivada</strong> pelo meu <a href="https://www.linkedin.com/in/jorge-pezzuol/" target="_blank"> amorzinho</a> a <del>iniciar</del> nessa <sub>área</sub>.</p>
           <p title="CarolzitaH">Essa sou eu: <br> <a href="https://www.facebook.com/carolina.ocinschi" target="_blank"><img src="https://scontent.flis8-1.fna.fbcdn.net/v/t1.0-9/87182348_2740737412674348_9080188878156988416_o.jpg?_nc_cat=103&_nc_sid=09cbfe&_nc_oc=AQmPzFqSBXj9vaefj5yQfCQMjRXZd9y9dR9g2u7mhnkGPeFMU852AX2IR0BePnqAiGKtocxcXwKsR-xk9bVo2W9P&_nc_ht=scontent.flis8-1.fna&oh=2910e642f35efbcfd10a18539f5ca67c&oe=5E96596E" alt="Foto da carolzitah" width="400" height="400"/></a><a href="https://www.facebook.com/carolina.ocinschi" target="_blank" title="CarolzitaH"><img src="https://scontent.flis8-1.fna.fbcdn.net/v/t1.0-9/67405769_2336159249798835_7454439092562952192_o.jpg?_nc_cat=109&_nc_sid=174925&_nc_oc=AQn9CAaFxiPT0Sw9i2ZmWLe3ZcXpSpxFF9-JVVdIHjpgwjhCcFd-pcrKgjiqNC0q5FiAYMZRTdG6pS_FXTmyxc3f&_nc_ht=scontent.flis8-1.fna&oh=0034e64b6160e181c14445d4873c10ff&oe=5E965561" alt="Foto da carolzitah" width="400" height="400" style="margin-left: 20px"/></a>   
           <p><a href="https://www.linkedin.com/in/carolina-ocinschi-joaquim/" target="_blank"><button>Meu LinkedIn</button></p></a>
           <p><a href="https://drive.google.com/u/0/uc?id=1zCj6Q1OKCbkqUQnH3Pvovfmt-KAZyB2H&export=download" target="_blank"><button>Meu Curriculo</button></p></a>
+          
+          <!-- CARACTERÍSTICAS-->
+
           <h2 id="características" style="color:#ff94c2">Minhas Características:</h2>
           <ul>
                <abbr title="Carolina Ocinschi Joaquim">COJ</abbr>
@@ -150,6 +190,8 @@
               <li>Cor dos olhos: Castanhos</li>
               <li>Cor dos cabelos: Pretos</li>
           </ul>
+
+          <!-- CITAÇÃO-->
 
           <h2 id="citação" style="color:#ff94c2">Minha Citação favorita:</h2>
           <blockquote cite ="https://www.pensador.com/frase/MjU0Mzc/" style="color:#ffffff">
@@ -161,6 +203,8 @@
           <!-- os comentários servem para dar alguma indicação, alguma explicação
            ou simplesmente para tirar algo do site, mas sem tirar do código-->
           <p><bdo dir="rtl">O espelho do Desejo!</bdo>
+
+          <!-- FORMAÇÃO ACADEMICA-->
           
           <h2 id="vidaacademica" style="color:#ff94c2">Minha vida Acadêmica:</h2>
           <table>
@@ -191,6 +235,7 @@
                </tr>
           </table><br>
 
+          <!-- SOBRE MIM-->
 
          <div style="background-color: rgb(54, 1, 41); color:#fff; padding: 18px;">
           <h2 id="resumo" style="color:#ff94c2">Sobre mim:</h2>
@@ -198,7 +243,46 @@
                Minhas experiências profissionais são todas na área administrativa, com atendimento ao cliente, e passando pelo faturamento e escrita fiscal.
                Em especial trabalhei como assistente administrativo na Associação do Residencial Real Park Tietê, onde eu desenvolvia projetos junto com a diretoria, devido a essa experiência percebi que sou uma pessoa comunicativa, que gosta de desafios e de autonomia para resolução de problemas e na tomada de decisão.</p>
      
-     </div>
+          </div><br><br>
+
+          <!-- FORMULÁRIO DE CONTATO-->
+
+          <div id="formulario">
+          <form>
+               <h2 style="color:#ff94c2" text-align="left">Entre em contato:</h2>
+               <label for="nome" class="formulario">Nome:</label><br>
+               <input type="text" id="nome" name="nome" size="30px"><br><br>
+               <label for="tel" class="formulario">Telefone:</label><br>
+               <input type="number" id="tel" name="tel" size="30px"><br><br>
+               <label for="email" class="formulario">E-mail:</label><br>
+               <input type="email" id="email" name="email" size="30px"><br><br>
+               <label for="sexo" class="formulario">Sexo:</label><br>
+               <select id="sexo" name="sexo">
+                    <option value="Masculino" selected>Masculino</option>
+                    <option value="Feminino">Feminino</option>
+                    <option value="Indefinido">Indefinido</option>
+               </select><br><br>
+               <label for="deficiente" class="formulario">Possui alguma deficiência?:</label><br>
+               <input type="radio" id="sdeficiente" name="def" value="sdeficiente">
+               <label for="sdeficiente">Sim</label><br>
+               <input type="radio" id="ndeficiente" name="def" value="nfeficiente">
+               <label for="ndeficiente">Não</label><br>
+               <label for="qualdef" class="formulario" >Se sim qual?:</label><br>
+               <input type="text" id="qualdef" name="qualdef" size="30px"><br><br>     
+               <label for="msg" class="formulario">Mensagem:</label><br>
+               <textarea id="msg" rows="10" cols="50" name="msg"></textarea><br><br>
+               <input type ="submit" value="Enviar" id="enviar"><br>
+
+          </form>
+               
+               
+
+
+          </div>
+          
+
+    
+
 
 
      </body>
